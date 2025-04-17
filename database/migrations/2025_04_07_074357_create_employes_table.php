@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('employe_email')->unique();
             $table->string('experience');
             $table->string('employe_image');
-            $table->string('employe_designation	');
+            $table->string('employe_designation');
             $table->timestamps();
         });
     }
